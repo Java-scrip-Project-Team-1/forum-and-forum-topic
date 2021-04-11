@@ -262,9 +262,10 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-  opacity: 75%;
+  opacity: 45%;
   font-size: 15px;
 }
+
 
 /* ------------------- SUBMIT MESSAGE FORM END ----------------------- */
 
@@ -346,6 +347,16 @@ input[type=submit]:hover {
   background-color: rgb(238, 245, 252);
 }
 
+.Back
+{
+  background-color: #f1f1f1;
+  color: black;
+  display: inline-block;
+  padding: 8px 16px;
+  color: #000000;
+  background-color: rgb(238, 245, 252);
+}
+
 .Addnew
 {
   position: absolute;
@@ -360,6 +371,12 @@ input[type=submit]:hover {
 }
 
 .Addnew:hover
+{
+  background-color: #ddd;
+  color: black;
+}
+
+.Back:hover
 {
   background-color: #ddd;
   color: black;
